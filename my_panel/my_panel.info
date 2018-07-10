@@ -1,0 +1,6 @@
+name = My Panel
+description = Custom panels pane & layout my_panel_3_col with 3 columns (25 * 50 * 25)
+package = Custom
+core = 7.x
+dependencies[] = panels
+dependencies[] = ctools

@@ -1,0 +1,24 @@
+<?php
+/**
+ * @file
+ * my_panel.module
+ */
+
+/**
+ * Implements hook_ctools_plugin_directory().
+ *
+ * A Ctools find the .inc files that define various
+ * types of plugins: layouts and content_types.
+ */
+function my_panel_ctools_plugin_directory($owner, $plugin_type) {
+    // Providing layout plugins.
+    if ($owner == 'panels' && $plugin_type == 'layouts') {
+        // my_panel_ctools_plugin_directory.
+        return "plugins/$plugin_type";
+    }
+
+    // Providing content type plugins.
+    if ($owner == 'ctools' && $plugin_type == 'content_types') {
+        return 'plugins/content_types';
+    }
+}
