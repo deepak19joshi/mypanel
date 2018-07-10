@@ -11,8 +11,21 @@ Testing Steps
 
 4 Create content as Flex page with Text and Image panes.
 
-5  Node page will display Text and Image panes.
+5 Node page will display Text and Image panes.
 
 
 
+Note
+--------------------
+Used depndedent contrib Drupal 7 modules
+
+> Panels
+
+> Ctools
+
+> Panelizer
+
+> Page Manager
+
+> Feature
 
